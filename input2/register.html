@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  
+  <title>register.html</title>
+ 
+ </head>
+ <body bgcolor="ivory">
+
+ <center>
+<h1>BANGALORE UNIVERSITY</h1>
+
+<hr/>
+<h2>Exam Apptication Register Form for BU  I Sem Students  </h2>
+</br>
+
+</center><br />
+<br />
+  <form method="post" action="registeruser.php">
+	<table>
+		
+		<tr>
+			<td>Name</td>
+			<td><input style="text-transform: uppercase" type="text" name="name" maxlength="30" onkeypress="alpha_only()"></td>
+		</tr>
+		
+		<tr>
+			<td>Gender</td>
+			<td>Male<input type="radio" name="gender" value="male"> &nbsp; &nbsp; Female<input type="radio" name="gender" value="female"></td>
+		</tr>
+		
+		<tr>
+			<td>Student's Father Name</td>
+			<td><input  style="text-transform: uppercase" type="text" name="father_name" maxlength="30" onkeypress="alpha_only()" ></td>
+		</tr>
+	
+		<tr>
+			<td>Student Register Number</td>
+			<td><input style="text-transform: uppercase" type="text" name="regno" maxlength="10"></td>
+		</tr>
+		
+		<tr>
+			<td>College Name</td>
+			<td><input type="text" name="college" maxlength="30"></td>
+		</tr>
+		
+		<tr>
+			<td>College Code</td>
+			<td><input type="text" name="code" maxlength="4" /></td>
+		</tr>
+		
+		
+
+		<tr>
+			<td>Mobile Number</td>
+			<td><input type="text" name="mobile" maxlength="10" onkeypress="num_only()"></td>
+		</tr>
+		
+		<tr>
+			<td>email_id</td>
+			<td><input type="text" name="email" maxlength="30"></td>
+		</tr>
+
+
+		<tr>
+			<td>Full Postal Address</td>
+			<td><textarea name="address" rows="4" cols="24"></textarea></td>
+		</tr>
+
+		
+		<tr>
+			<td>Pincode</td>
+			<td><input type="text" name="pin" maxlength="6" onkeypress="num_only()"></td>
+		</tr>
+
+
+		<tr>
+			<td>Choose Password</td>
+			<td><input type="password" name="psw" maxlength="20"></td>
+		</tr>
+
+		<tr>
+			<td>Confirm Password</td>
+			<td><input type="password" name="cpwd" maxlength="20"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td><input type="submit" value="Register"></td>
+		</tr>
+
+		
+
+	</table>
+  </form>
+ </body>
+</html>
